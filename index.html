@@ -39,8 +39,11 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm-3 align-self-center">
                     <img src="img/logo.png" class="img-fluid">
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                    <a href="#bookTable" class="btn btn-warning btn-lg btn-block">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -68,8 +71,13 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Uthappizza">
+                </div>
             </div>
         </div>
 
@@ -85,6 +93,61 @@
                         <h4>Executive Chef</h4>
                         <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.
                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content justify-content-center" id="bookTable">
+            <div class="col-12 col-sm-8 align-self-center">
+                <div class="card">
+                    <div class="card-header text-white bg-warning">
+                        <h3><b>Reserve a Table</b></h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group-row row">
+                                <span class="col-sm-2 col-form-label">Number of Guests</span>
+                                <div class="col-sm-10">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="inlineRadio1" value="1" name="numberOfGuests">
+                                        <label class="form-check-label" for="inlineRadio1">1</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="inlineRadio2" value="2" name="numberOfGuests">
+                                        <label class="form-check-label" for="inlineRadio2">2</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="inlineRadio3" value="3" name="numberOfGuests">
+                                        <label class="form-check-label" for="inlineRadio3">3</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="inlineRadio4" value="4" name="numberOfGuests">
+                                        <label class="form-check-label" for="inlineRadio4">4</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="inlineRadio5" value="5" name="numberOfGuests">
+                                        <label class="form-check-label" for="inlineRadio5">5</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" id="inlineRadio6" value="6" name="numberOfGuests">
+                                        <label class="form-check-label" for="inlineRadio6">6</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group-row row">
+                                <span class="col-sm-2 col-form-label">Date and Time</span>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" placeholder="Date">
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" placeholder="Time">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p>&nbsp;&nbsp;&nbsp;</p><button type="button" class="btn btn-primary offset-2">Reserve</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
