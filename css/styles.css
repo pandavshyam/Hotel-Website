@@ -52,3 +52,15 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+#loginModal .modal-header,
+#registerModel .modal-header {
+  background-color: #512DA8;
+  color: #ddd; }
+  #loginModal .modal-header .close,
+  #registerModel .modal-header .close {
+    color: #ddd; }
+
+#loginModal .modal-body,
+#registerModel .modal-body {
+  background-color: #D1C4E9; }

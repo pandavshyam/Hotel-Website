@@ -71,3 +71,17 @@ body {
     bottom: 0px;
     z-index: 1;
 }
+
+#loginModal,
+#registerModel {
+    .modal-header {
+        background-color: $background-dark;
+        color: $lt-gray;
+        .close {
+            color: $lt-gray;
+        }
+    }
+    .modal-body {
+        background-color: $background-pale;
+    }
+}
