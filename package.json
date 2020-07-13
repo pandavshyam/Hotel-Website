@@ -20,9 +20,9 @@
     "license": "ISC",
     "devDependencies": {
         "cssmin": "^0.4.3",
-        "grunt": "^1.0.2",
+        "grunt": "^1.2.1",
         "grunt-browser-sync": "^2.2.0",
-        "grunt-contrib-watch": "^1.0.0",
+        "grunt-contrib-watch": "^1.1.0",
         "grunt-sass": "^2.1.0",
         "htmlmin": "0.0.7",
         "jit-grunt": "^0.10.0",
@@ -42,6 +42,7 @@
         "font-awesome": "^4.7.0",
         "grunt-cli": "^1.2.0",
         "jquery": "^3.5.1",
+        "liftoff": "^3.1.0",
         "popper.js": "^1.16.1"
     }
 }
